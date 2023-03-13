@@ -1,5 +1,54 @@
 body{
-    background-color: aqua;
-    background-image: url(borabora.jpeg);
+    /*background-color: aqua; */
+    /* background-image: url(borabora.jpeg);*/
+    margin: 0;
+    font-family: sans-serif;
 }
 .jumbotron {background-image: url(borabora.jpeg);}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /*Flexbox Centering */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    /*Text Styling */
+    text-align: center;
+
+    /*background style */
+    background-image: url(borabora.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero h1 {
+    /*Apply styling to the H1 header under the Hero Class */
+    font-size:4em;
+    margin-top:0;
+    margin-bottom:0.5 em;
+}
+
+.hero .btn {
+    /*position/size/border */
+    display:block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+   
+   /* Text and Border Syles */
+   color:black;
+   text-decoration: none;
+   font-size: 1.5em;
+   border: 3px solid black;
+   border-radius: 20px;
+
+}
