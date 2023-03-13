@@ -2,3 +2,4 @@ body{
     background-color: aqua;
     background-image: url(borabora.jpeg);
 }
+.jumbotron {background-image: url(borabora.jpeg);}
