@@ -1,9 +1,15 @@
 body {
-    background:url(https://preview.ibb.co/g6MVS9/gg.png);
+    /* background:url(https://preview.ibb.co/g6MVS9/gg.png); */
     font-family:'PT Sans',Helvetica, Arial, sans-serif;
-    color:#fff;
+    /* color:#fff;
        background-repeat: no-repeat;
-       background-size:cover;
+       background-size:cover; */
+       background:url(https://preview.ibb.co/g6MVS9/gg.png);
+       background-size: cover;
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+
     }
     
     .page-container {
@@ -128,14 +134,14 @@ body {
     
     
     .navbar {
-        overflow: hidden;
+       
         background-color: #333;
         font-family: Arial;
     }
     
     .navbar a {float: left;font-size: 16px;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
     
-    .dropdown {float: left;overflow: hidden;}
+    /* .dropdown {float: left;overflow: hidden;} */
     
     .dropdown .dropbtn {font-size: 16px;border: none;outline: none;color: white;padding: 14px 16px;background-color: inherit;}
     
