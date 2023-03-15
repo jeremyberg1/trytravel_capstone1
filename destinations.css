@@ -1,5 +1,6 @@
 h1 {text-align: center;}
 
+.well {background-color: rgb(201, 237, 248);}
 
 body { padding-top: 50px; }
 /*#####################
@@ -12,7 +13,7 @@ Additional Styles (required)
 	background-image:none !important;
 }
 .carousel-control {
-	color:#fff;
+	color: #fff;;
 	top:40%;
 	color:#428BCA;
 	bottom:auto;
