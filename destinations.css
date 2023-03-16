@@ -3,9 +3,11 @@ h1 {text-align: center;}
 .well {background-color: rgb(201, 237, 248);}
 
 body { padding-top: 50px; }
-/*#####################
-Additional Styles (required)
-######################*/
+
+.col-md-4 {
+	margin-top: 27px;
+	}
+
 #myCarousel .thumbnail {
 	margin-bottom: 0;
 }
@@ -53,3 +55,4 @@ Additional Styles (required)
 	background:#3276b1;
 	border-color:#3276b1;
 }
+
