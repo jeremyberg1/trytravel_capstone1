@@ -1,58 +1,91 @@
-h1 {text-align: center;}
+h1 {
+	text-align: center;
+}
 
-.well {background-color: rgb(201, 237, 248);}
+.well {
+	background-color: rgb(201, 237, 248);
+}
 
-body { padding-top: 50px; }
+
 
 .col-md-4 {
 	margin-top: 27px;
-	}
+
+}
 
 #myCarousel .thumbnail {
 	margin-bottom: 0;
 }
-.carousel-control.left, .carousel-control.right {
-	background-image:none !important;
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none !important;
 }
+
 .carousel-control {
-	color: #fff;;
-	top:40%;
-	color:#428BCA;
-	bottom:auto;
-	padding-top:4px;
-	width:30px;
-	height:30px;
-	text-shadow:none;
-	opacity:1;
+	color: #fff;
+	;
+	top: 40%;
+	color: #428BCA;
+	bottom: auto;
+	padding-top: 4px;
+	width: 30px;
+	height: 30px;
+	text-shadow: none;
+	opacity: 1;
 }
+
 .carousel-control:hover {
 	color: #d9534f;
 }
-.carousel-control.left, .carousel-control.right {
-	background-image:none !important;
-}
+
+.carousel-control.left,
 .carousel-control.right {
-	left:auto;
-	right:-32px;
-}
-.carousel-control.left {
-	right:auto;
-	left:-32px;
-}
-.carousel-indicators {
-	bottom:-30px;
-}
-.carousel-indicators li {
-	border-radius:0;
-	width:10px;
-	height:10px;
-	background:#ccc;
-	border:1px solid #ccc;
-}
-.carousel-indicators .active {
-	width:12px;
-	height:12px;
-	background:#3276b1;
-	border-color:#3276b1;
+	background-image: none !important;
 }
 
+.carousel-control.right {
+	left: auto;
+	right: -32px;
+}
+
+.carousel-control.left {
+	right: auto;
+	left: -32px;
+}
+
+.carousel-indicators {
+	bottom: -30px;
+}
+
+.carousel-indicators li {
+	border-radius: 0;
+	width: 10px;
+	height: 10px;
+	background: #ccc;
+	border: 1px solid #ccc;
+}
+
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	background: #3276b1;
+	border-color: #3276b1;
+}
+
+.description {
+	height: 100px;
+}
+
+.vendors {
+	background-color: white;
+	padding: 16px;
+}
+
+body {
+
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+	background-image: url('borabora.jpeg');
+}
